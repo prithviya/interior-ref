@@ -1,0 +1,45 @@
+.custom-bg 
+{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/images/contact-img2.jpg');
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.custom-bg  
+{
+    color: rgb(44, 40, 40);
+}
+/* .custom-text h5
+{
+    text-transform: uppercase;
+    background: linear-gradient(to right, #000428 0%, #004e92 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .container .content {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color:#fff;
+    width: 50%;
+    padding: 10px;
+  }
+  .content .h5
+  {
+      color: white;
+  }
